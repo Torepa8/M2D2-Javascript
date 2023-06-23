@@ -80,6 +80,8 @@ const io={
     hobby:"calcetto"
 }
 
+console.log("Sono " + io.name + "e il mio hobby è "+ io.hobby)
+
 console.log(io)
 
 /* ESERCIZIO 7
@@ -99,5 +101,5 @@ console.log(io)
 
 let name1="john"
 let name2="John"
-let control=console.log(name1==name2)
-console.log(name1.toLowerCase()==name2.toLowerCase())
+let control=console.log(name1!==name2)
+console.log(name1.toLowerCase()===name2.toLowerCase())
