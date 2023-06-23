@@ -14,17 +14,21 @@ REGOLE
 /* i principali datatype in Javascript sono:
     numeri, strighe, boolean, null e undefined
     -number sono i numeri, che siano interi o decimali (-2 -34 9 1 0 1 3 5 6 2.3 etc)
-    -string è una sequenza di caratteri alfanumerici ("ciao123" "eccomi sono una stringa"
-    -boolean è una valore vero o falso 
-    -null è un valore vuoto  let valoreVuoto=null
-    -undefined valore non definito let valoreUndefined */
+    -string è una sequenza di caratteri alfanumerici ("ciao123" "eccomi sono una stringa")
+    -boolean è una valore logico (vero o falso) 
+    -null è un valore nullo  let valoreVuoto=null
+    -undefined valore non definito let valoreUndefined 
+    
+    let è una variabile 
+
+    */
 
 /* ESERCIZIO 2
  Descrivi cos'è un oggetto in JavaScript, con parole tue.
 */
 
 /* 
- Un oggetto è un contenitore di un insieme di elementi (proprietà) che sono caratterizzati da una coppia chiave-valore
+ Un oggetto è un contenitore di elementi (proprietà) che sono caratterizzati da una coppia chiave-valore
  Un esempio può essere un oggetto che definisce una persona: const studente={nome:Salvatore,cognome:Pau,età:31} */
 
 
@@ -67,6 +71,7 @@ let name="Salvatore"
 */
 let x=12
 let sottraz=4-12
+console.log(sottraz)
 
 
 const io={
