@@ -19,7 +19,7 @@ REGOLE
     -null è un valore nullo  let valoreVuoto=null
     -undefined valore non definito let valoreUndefined 
     
-    let è una variabile 
+     
 
     */
 
